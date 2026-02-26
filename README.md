@@ -73,12 +73,10 @@
 <hr/>
 
 <h2>Dependencies</h2>
-<p>Install the required Python packages using:</p>
+<p>Install the required packages using:</p>
 
 <pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn
 </code></pre>
-
-<p>Recommended Python version: 3.9 or higher.</p>
 
 <hr/>
 
