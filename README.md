@@ -57,7 +57,7 @@
 
 <p>
   <strong>Google Drive Link:</strong><br/>
-  <em>[[INSERT GOOGLE DRIVE LINK HERE]](https://drive.google.com/drive/folders/1AJH0xqVICqzKMqdQ5UzxKQAof5QCxodn?usp=sharing)</em>
+  <em>https://drive.google.com/drive/folders/1AJH0xqVICqzKMqdQ5UzxKQAof5QCxodn?usp=sharing</em>
 </p>
 
 <p>
