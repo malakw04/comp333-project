@@ -78,6 +78,11 @@
 <pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn
 </code></pre>
 
+<p>or</p>
+
+<pre><code>pip install -r requirements.txt
+</code></pre>
+
 <hr/>
 
 <h2>Reproduction Instructions</h2>
