@@ -1,63 +1,104 @@
-# comp333-project
-Weather Rainfall Prediction Project
-Team Information
+<h1>COMP 333 Project</h1>
+<h2>Weather Rainfall Prediction</h2>
 
-Team Member 1: Sean Goren — 40279199
+<hr/>
 
-Team Member 2: Malak Abdelkafy — 40235257
+<h2>Team Information</h2>
+<ul>
+  <li><strong>Sean Goren</strong> — 40279199</li>
+  <li><strong>Malak Abdelkafy</strong> — 40235257</li>
+</ul>
 
-Course: COMP 33
-Instructor: Alexis Yanez
-Semester: Winter 2026
+<p>
+  <strong>Course:</strong> COMP 333<br/>
+  <strong>Instructor:</strong> Alexis Yanez<br/>
+  <strong>Semester:</strong> Winter 2026
+</p>
 
-Project Overview
+<hr/>
 
-This project analyzes U.S. weather data to:
+<h2>Project Overview</h2>
+<p>
+  This project analyzes U.S. weather data to address two primary tasks:
+</p>
 
-Supervised Task:
-Predict whether it will rain tomorrow (RainTomorrow).
+<h3>Supervised Learning</h3>
+<p>Predict whether it will rain tomorrow.</p>
 
-Unsupervised Task:
-Identify whether natural weather patterns form distinct clusters.
+<h3>Unsupervised Learning</h3>
+<p>Identify whether natural weather patterns form distinct clusters.</p>
 
-The dataset includes daily meteorological measurements across multiple weather stations.
+<p>
+  The dataset contains daily meteorological measurements collected from multiple weather stations across the United States.
+</p>
 
-Data Source
+<hr/>
 
-Dataset: Weather Dataset (US)
-Author: Nachiket Kamod
-Source Link:
-https://www.kaggle.com/datasets/nachiketkamod/weather-dataset-us 
+<h2>Data Source</h2>
+<p>
+  <strong>Dataset:</strong> Weather Dataset (US)<br/>
+  <strong>Author:</strong> Nachiket Kamod<br/>
+  <strong>Kaggle Link:</strong>
+  <a href="https://www.kaggle.com/datasets/nachiketkamod/weather-dataset-us">
+    https://www.kaggle.com/datasets/nachiketkamod/weather-dataset-us
+  </a>
+</p>
 
-If required, download the dataset and place it inside the /data directory.
+<p>
+  The original dataset (~8GB) was filtered during preprocessing to produce a reduced dataset (~2GB) used in this project.
+</p>
 
-Dependencies
+<hr/>
 
-Install required Python packages:
+<h2>Dataset Access</h2>
+<p>
+  Due to file size limitations, the filtered dataset (~2GB) is not included in this repository.
+</p>
 
-pip install polars pandas numpy scikit-learn matplotlib seaborn
+<p>
+  <strong>Google Drive Link:</strong><br/>
+  <em>[[INSERT GOOGLE DRIVE LINK HERE]](https://drive.google.com/drive/folders/1AJH0xqVICqzKMqdQ5UzxKQAof5QCxodn?usp=sharing)</em>
+</p>
 
-Reproduction Instructions
+<p>
+  After downloading, place the dataset file inside the <code>/data</code> directory:
+</p>
 
-Follow these steps to reproduce results:
+<pre><code>comp333-project/
+│
+├── data/
+│   └── &lt;filtered_dataset_file&gt;
+</code></pre>
 
-Clone Repository
-git clone https://github.com/<your-repo-name>.git
-cd <comp333-project>
-Place Dataset
+<hr/>
 
-Download the dataset from the link above and place the file inside:
+<h2>Dependencies</h2>
+<p>Install the required Python packages using:</p>
 
-/data/
+<pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn
+</code></pre>
 
-Example:
+<p>Recommended Python version: 3.9 or higher.</p>
 
-/data/weather.csv
+<hr/>
 
-Run Notebooks
+<h2>Reproduction Instructions</h2>
 
-Phase1_DataPreparation.ipynb
+<h3>1. Clone the Repository</h3>
+<pre><code>git clone https://github.com/&lt;your-repo-name&gt;.git
+cd comp333-project
+</code></pre>
 
-Each notebook contains step-by-step explanations and model evaluations.
+<h3>2. Download and Place the Dataset</h3>
+<p>
+  Download the filtered dataset from the Google Drive link above and place it inside the <code>/data</code> directory.
+</p>
+
+<h3>3. Run the Notebook</h3>
+<p>Open and run:</p>
+
+<pre><code>weather_98th_percentile_basline_model.ipynb
+</code></pre>
+
 
 
