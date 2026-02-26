@@ -85,7 +85,7 @@
 <h2>Reproduction Instructions</h2>
 
 <h3>1. Clone the Repository</h3>
-<pre><code>git clone https://github.com/&lt;your-repo-name&gt;.git
+<pre><code>git clone https://github.com/&lt;comp333-project&gt;.git
 cd comp333-project
 </code></pre>
 
