@@ -61,14 +61,9 @@
 </p>
 
 <p>
-  After downloading, place the dataset file inside the <code>/data</code> directory:
+  After downloading, place the dataset file inside the same folder as the jupyter notebook.
 </p>
 
-<pre><code>comp333-project/
-│
-├── data/
-│   └── &lt;filtered_dataset_file&gt;
-</code></pre>
 
 <hr/>
 
