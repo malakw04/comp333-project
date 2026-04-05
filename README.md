@@ -70,7 +70,7 @@
 <h2>Dependencies</h2>
 <p>Install the required packages using:</p>
 
-<pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn
+<pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn xgboost
 </code></pre>
 
 <p>or</p>
