@@ -70,7 +70,7 @@
 <h2>Dependencies</h2>
 <p>Install the required packages using:</p>
 
-<pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn
+<pre><code>pip install polars pandas numpy scikit-learn matplotlib seaborn xgboost
 </code></pre>
 
 <p>or</p>
@@ -95,7 +95,7 @@ cd comp333-project
 <h3>3. Run the Notebook</h3>
 <p>Open and run:</p>
 
-<pre><code>weather_98th_percentile_basline_model.ipynb
+<pre><code>Phase1_and_Phase2.ipynb
 </code></pre>
 
 
