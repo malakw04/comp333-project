@@ -95,7 +95,7 @@ cd comp333-project
 <h3>3. Run the Notebook</h3>
 <p>Open and run:</p>
 
-<pre><code>weather_98th_percentile_basline_model.ipynb
+<pre><code>Phase1_and_Phase2.ipynb
 </code></pre>
 
 
