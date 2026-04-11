@@ -215,3 +215,4 @@ marimo/_lsp/
 __marimo__/
 notebooks/*.csv
 .DS_Store
+notebooks/data/
