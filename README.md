@@ -19,6 +19,10 @@
   This project implements a complete end-to-end data analytics pipeline on U.S. daily 
   weather data, addressing two research questions:
 </p>
+</p>
+  As apart of Phase 3, instead of including multiple markdown cells inside our jupyter notebook, we wanted to explain and show our results, findings, etc. in a more structured format.     We created a written document that includes a proper overview of our project, complete with explanations, results, tables, graphs, etc.
+  The report will be included as apart of our project submission, titled "COMP 333 Project Summary".
+</p>
 <h3>Supervised Learning</h3>
 <p>Can we predict whether it will rain tomorrow?</p>
 <h3>Unsupervised Learning</h3>
