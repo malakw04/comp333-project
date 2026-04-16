@@ -77,7 +77,7 @@ cd comp333-project
 
 <h3>3. Run the Notebook</h3>
 <p>Open and run all cells in:</p>
-<pre><code>Phase_3.ipynb</code></pre>
+<pre><code>phase_3_final.ipynb</code></pre>
 <p>
   Cells must be run in order as later cells depend on variables defined earlier in the pipeline.
 </p>
